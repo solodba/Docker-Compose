@@ -1,5 +1,5 @@
 FROM centos:7
-MAINTAINER www.ctnrs.com
+MAINTAINER codehorse
 RUN yum install epel-release -y && \
     yum install -y gcc gcc-c++ make gd-devel libxml2-devel \
     libcurl-devel libjpeg-devel libpng-devel openssl-devel \

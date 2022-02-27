@@ -1,5 +1,5 @@
 FROM centos:7
-LABEL maintainer www.ctnrs.com
+LABEL maintainer codehorse
 RUN yum install -y gcc gcc-c++ make \
     openssl-devel pcre-devel gd-devel \
     iproute net-tools telnet wget curl && \
